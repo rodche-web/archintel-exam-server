@@ -1,13 +1,14 @@
 {
   "name": "archintel-exam-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Writer/Editor Dashboard Site that has the ablity to create, edit, and publish an article related to a company.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rodwin Chester Espiritu",
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.699.0",
